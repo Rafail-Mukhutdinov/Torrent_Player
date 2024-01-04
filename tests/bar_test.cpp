@@ -2,6 +2,7 @@
 #include "gtest/gtest.h"
 #include "../lib/bar.h"
 
+
 class BarTest : public ::testing::Test {
 protected:
     Bar bar;
