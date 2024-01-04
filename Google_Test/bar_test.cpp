@@ -1,6 +1,6 @@
 // tests/bar_test.cpp
 #include "gtest/gtest.h"
-#include "../lib/bar.h"
+#include "../Project_1/bar.h"
 
 
 class BarTest : public ::testing::Test {

@@ -1,8 +1,8 @@
 
 # tests/CMakeLists.txt
 file(GLOB TEST_SOURCES "*.cpp")
-file(GLOB SRC_SOURCES "../src/*.cpp")
-file(GLOB LIB_SOURCES "../lib/*.cpp")
+file(GLOB SRC_SOURCES "../Project_1/*.cpp")
+file(GLOB LIB_SOURCES "../Project_2/*.cpp")
 
 add_executable(MyTests ${TEST_SOURCES} ${SRC_SOURCES} ${LIB_SOURCES})
 #target_link_libraries(MyTests gtest gtest_main)
