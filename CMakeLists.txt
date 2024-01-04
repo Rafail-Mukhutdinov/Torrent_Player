@@ -3,7 +3,8 @@ cmake_minimum_required(VERSION 3.27)
 project(Template_Boost_Test)
 
 # Подключите Boost
-set(BOOST_INCLUDE_LIBRARIES asio regex algorithm date_time filesystem system program_options json log thread) # Укажите нужные вам компоненты Boost
+# asio regex algorithm date_time filesystem system program_options json thread
+set(BOOST_INCLUDE_LIBRARIES log asio regex algorithm date_time filesystem system program_options json thread ) # Укажите нужные вам компоненты Boost
 set(BOOST_ENABLE_CMAKE ON)
 include(FetchContent)
 FetchContent_Declare(
