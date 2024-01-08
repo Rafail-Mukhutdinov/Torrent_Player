@@ -30,6 +30,7 @@ enable_testing()
 # Добавьте ваши директории
 add_subdirectory(Project_1)
 add_subdirectory(Project_2)
+add_subdirectory(Project_Qt)
 add_subdirectory(Google_Test)
 
 # Включите Google Test
