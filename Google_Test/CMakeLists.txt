@@ -1,7 +1,7 @@
 
 # tests/CMakeLists.txt
 file(GLOB TEST_SOURCES "*.cpp")
-file(GLOB SRC_SOURCES "../Project_1/bar.cpp")
+file(GLOB SRC_SOURCES "../Project_1_Boost/bar.cpp")
 file(GLOB LIB_SOURCES "../Project_2/*.cpp")
 
 add_executable(MyTests ${TEST_SOURCES} ${SRC_SOURCES} ${LIB_SOURCES})
