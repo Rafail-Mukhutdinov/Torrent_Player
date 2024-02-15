@@ -1,4 +1,4 @@
-[![CMake on multiple platforms](https://github.com/Rafail-Mukhutdinov/Template_Google_test/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/Rafail-Mukhutdinov/Template_Google_test/actions/workflows/cmake-multi-platform.yml)
+[![CMake on multiple platforms](https://github.com/Rafail-Mukhutdinov/Torrent_Player/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/Rafail-Mukhutdinov/Torrent_Player/actions/workflows/cmake-multi-platform.yml)
 
 # Google Test Starter Template
 
